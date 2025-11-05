@@ -8,7 +8,6 @@ body {
 a,span{
     text-decoration: none;
     color: white;
-    
 }
 
 .content {
@@ -84,3 +83,72 @@ a,span{
     font-weight: bold;
 }
 
+.info {
+    height: 50vh;
+    background-color: white;
+    text-align: center;
+    
+}
+
+.info span {
+    color: black;
+    
+}
+
+.quote {
+    height: 28vh;
+    background-color: #E5E7EB;
+}
+
+.boxes {
+    display: flex;
+    justify-content:center;
+    gap:40px;
+    
+}
+
+.boxes img, .boxes span{
+    width: 180px;
+    height: 180px;
+    
+}
+
+.boxes img {
+    border: 4px solid #ee9ecf;
+    border-radius: 15px;
+}
+
+.box1,.box2,.box3,.box4{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.random {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    margin: 100px 100px;
+}
+
+.random-info {
+    height:80px;
+    padding-top: 45px;
+}
+
+.quote {
+    padding: 100px;
+}
+
+.quote-text {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 300;
+    font-style:italic;
+}
+
+.author {
+    text-align: end;
+    font-size: 22px;
+    font-weight: bold;
+}
